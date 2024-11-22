@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3Dhamma - Modern Buddhist Teachings</title>
+    <meta name="description" content="W3Dhamma - Your gateway to modern Buddhist teachings including Abhidhamma, Sutta, and Vinaya.">
+    <meta name="keywords" content="Buddhism, Abhidhamma, Sutta, Vinaya, Dhamma, Meditation, Mindfulness">
+    <meta name="author" content="W3Dhamma">
+    <meta property="og:title" content="W3Dhamma - Modern Buddhist Teachings">
+    <meta property="og:description" content="Explore the profound teachings of Buddhism with W3Dhamma. Learn about Abhidhamma, Sutta, and Vinaya in the digital age.">
+    <meta property="og:image" content="https://w3dhamma.com/og-image.jpg">
+    <meta property="og:url" content="https://w3dhamma.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <nav>
+        <a href="#" class="logo">W3Dhamma</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="abhidhamma.html">Abhidhamma</a>
+            <a href="sutta.html">Sutta</a>
+            <a href="vinaya.html">Vinaya</a>
+            <a href="changelog.html">Changelog</a>
+        </div>
+        <div class="nav-right">
+            <button class="search-toggle" aria-label="Toggle search"><i class="fas fa-search"></i></button>
+            <button class="dark-mode-toggle" aria-label="Toggle dark mode"><i class="fas fa-sun"></i></button>
+            <button class="menu-toggle" aria-label="Toggle navigation menu"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <div class="search-overlay">
+        <button class="search-close" aria-label="Close search"><i class="fas fa-times"></i></button>
+        <input type="search" id="search" placeholder="Search...">
+        <video class="search-animation" loop muted>
+            <source src="assets/icon/search-animation.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+        <div id="search-message"></div>
+        <div class="search-results"></div>
+        <button class="load-more" style="display: none;">Load More</button>
+    </div>
+
+    <div class="mobile-nav">
+        <button class="mobile-nav-close" aria-label="Close menu"><i class="fas fa-times"></i></button>
+        <a href="index.html">Home</a>
+        <a href="abhidhamma.html">Abhidhamma</a>
+        <a href="sutta.html">Sutta</a>
+        <a href="vinaya.html">Vinaya</a>
+        <a href="changelog.html">Changelog</a>
+    </div>
+
+    <main>
+        <section id="home" class="home-section">
+            <h1>Welcome to W3Dhamma</h1>
+            <p>
+                Explore the profound teachings of Buddhism in the digital age. Discover Abhidhamma, Sutta, and Vinaya through our modern approach to ancient wisdom.
+            </p>
+        </section>
+
+        <section id="abhidhamma">
+            <h2>Abhidhamma</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Understanding Consciousness</h3>
+                    <p>
+                        Dive deep into the nature of mind and consciousness as explained in Abhidhamma.
+                    </p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+                <div class="card">
+                    <h3>The Elements of Existence</h3>
+                    <p>
+                        Explore the fundamental building blocks of reality according to Buddhist philosophy.
+                    </p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+                <div class="card">
+                    <h3>Karma and Rebirth</h3>
+                    <p>
+                        Understand the intricate workings of karma and its effects on the cycle of rebirth.
+                    </p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sutta">
+            <h2>Sutta</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>The Four Noble Truths</h3>
+                    <p>
+                        Discover the core teachings of the Buddha on suffering and its cessation.
+                    </p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+                <div class="card">
+                    <h3>The Eightfold Path</h3>
+                    <p>
+                        Learn about the Buddhist path to enlightenment and liberation.
+                    </p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+                <div class="card">
+                    <h3>Mindfulness Suttas</h3>
+                    <p>
+                        Explore the Buddha's teachings on mindfulness and meditation practices.
+                    </p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="vinaya">
+            <h2>Vinaya</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Monastic Code</h3>
+                    <p>
+                        Understand the rules and regulations governing Buddhist monastic life.
+                    </p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+                <div class="card">
+                    <h3>Lay Ethics</h3>
+                    <p>
+                        Discover the ethical guidelines for lay practitioners in Buddhism.
+                    </p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+                <div class="card">
+                    <h3>Community Harmony</h3>
+                    <p>
+                        Learn about the principles for maintaining harmony in Buddhist communities.
+                    </p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="changelog">
+            <h2>Changelog</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Version 1.2.0</h3>
+                    <p>
+                        Added new Abhidhamma section on the nature of consciousness.
+                    </p>
+                    <p>
+                        Updated Sutta translations for improved clarity.
+                    </p>
+                    <p>
+                        Enhanced search functionality for faster results.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Version 1.1.0</h3>
+                    <p>
+                        Introduced dark mode for comfortable night reading.
+                    </p>
+                    <p>
+                        Added interactive diagrams to Vinaya section.
+                    </p>
+                    <p>
+                        Improved mobile responsiveness across all pages.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Version 1.0.0</h3>
+                    <p>
+                        Initial release of W3Dhamma.
+                    </p>
+                    <p>
+                        Launched with core sections on Abhidhamma, Sutta, and Vinaya.
+                    </p>
+                    <p>
+                        Implemented basic search and navigation features.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="form-container">
+        <h2>Contact Us</h2>
+        <form id="contactForm" action="https://formspree.io/f/xanyweyr" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div id="successMessage" class="message success-message">
+            Thank you! We'll contact you soon.
+        </div>
+        <div id="errorMessage" class="message error-message">
+            Oops! Something went wrong. Please try again.
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About W3Dhamma</h3>
+                <p>
+                    W3Dhamma is dedicated to bringing the timeless wisdom of Buddhism to the digital age, making it accessible and relevant for modern practitioners.
+                </p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="abhidhamma.html">Abhidhamma</a></li>
+                    <li><a href="sutta.html">Sutta</a></li>
+                    <li><a href="vinaya.html">Vinaya</a></li>
+                    <li><a href="changelog.html">Changelog</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=61568890347742&mibextid=ZbWKwL"><i class="fab fa-facebook"></i> Facebook</a></li>
+                    <li><a href="error.html"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="error.html"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="error.html"><i class="fab fa-youtube"></i> YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <div style="text-align: center; "class="copyright">
+            &copy; 2024 W3Dhamma. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Smooth animations
+        document.addEventListener('DOMContentLoaded', () => {
+            const animatedElements = document.querySelectorAll('.card, .footer-section, .form-container');
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.transition = 'opacity 0.5s ease-out, transform 0.5s ease-out';
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+
+            animatedElements.forEach(el => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+</html>

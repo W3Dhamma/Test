@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3Dhamma - Sutta: Discourses of the Buddha</title>
+    <meta name="description" content="Explore the profound discourses of the Buddha through Sutta teachings on W3Dhamma.">
+    <meta name="keywords" content="Buddhism, Sutta, Buddha's Discourses, Dhamma, Meditation, Mindfulness">
+    <meta name="author" content="W3Dhamma">
+    <meta property="og:title" content="W3Dhamma - Sutta: Discourses of the Buddha">
+    <meta property="og:description" content="Dive deep into the Sutta, the discourses of the Buddha, exploring wisdom, ethics, and the path to enlightenment.">
+    <meta property="og:image" content="https://w3dhamma.com/og-image-sutta.jpg">
+    <meta property="og:url" content="https://w3dhamma.com/sutta">
+    <meta name="twitter:card" content="summary_large_image">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <nav>
+        <a href="#" class="logo">W3Dhamma</a>
+        <div class="nav-links">
+            <a href="https://w3dhamma.github.io/w3dhamma/">Home</a>
+            <a href="abhidhamma.html">Abhidhamma</a>
+            <a href="#sutta">Sutta</a>
+            <a href="vinaya.html">Vinaya</a>
+            <a href="#changelog">Changelog</a>
+        </div>
+        <div class="nav-right">
+            <button class="search-toggle" aria-label="Toggle search"><i class="fas fa-search"></i></button>
+            <button class="dark-mode-toggle" aria-label="Toggle dark mode"><i class="fas fa-sun"></i></button>
+            <button class="menu-toggle" aria-label="Toggle navigation menu"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <div class="search-overlay">
+        <button class="search-close" aria-label="Close search"><i class="fas fa-times"></i></button>
+        <input type="search" id="search" placeholder="Search Sutta...">
+        <video class="search-animation" loop muted>
+            <source src="assets/icon/search-animation.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+        <div id="search-message"></div>
+        <div class="search-results"></div>
+        <button class="load-more" style="display: none;">Load More</button>
+    </div>
+
+    <div class="mobile-nav">
+        <button class="mobile-nav-close" aria-label="Close menu"><i class="fas fa-times"></i></button>
+        <a href="https://w3dhamma.github.io/w3dhamma/">Home</a>
+        <a href="#introduction">Introduction</a>
+        <a href="#key-teachings">Key Teachings</a>
+        <a href="#collections">Collections</a>
+        <a href="#resources">Resources</a>
+    </div>
+
+    <main>
+        <section id="home" class="home-section">
+            <h1>Sutta: Discourses of the Buddha</h1>
+            <p>Explore the profound teachings of the Buddha through the Suttas, which contain the core principles of Buddhism and guide practitioners on the path to enlightenment.</p>
+        </section>
+
+        <section id="introduction">
+            <h2>Introduction to Sutta</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>What are Suttas?</h3>
+                    <p>Suttas are the discourses of the Buddha, containing his teachings on various aspects of life, ethics, meditation, and the path to enlightenment.</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+                <div class="card">
+                    <h3>Historical Context</h3>
+                    <p>The Suttas were originally transmitted orally and later compiled into collections, forming a significant part of the Buddhist canon.</p>
+                    <a href="#" class="learn-more">Explore History</a>
+                </div>
+                <div class="card">
+                    <h3>Importance in Buddhist Practice</h3>
+                    <p>Suttas provide guidance for daily life, meditation practice, and understanding the nature of reality according to Buddhist philosophy.</p>
+                    <a href="#" class="learn-more">Discover Importance</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="key-teachings">
+            <h2>Key Teachings in Sutta</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>The Four Noble Truths</h3>
+                    <p>The foundational teaching of Buddhism, explaining the nature of suffering and the path to its cessation.</p>
+                    <a href="#" class="learn-more">Explore Noble Truths</a>
+                </div>
+                <div class="card">
+                    <h3>The Noble Eightfold Path</h3>
+                    <p>A practical guide to ethical and mental development, leading to liberation from suffering.</p>
+                    <a href="#" class="learn-more">Understand the Path</a>
+                </div>
+                <div class="card">
+                    <h3>Dependent Origination</h3>
+                    <p>A deep analysis of causality and the interconnected nature of all phenomena.</p>
+                    <a href="#" class="learn-more">Learn Causality</a>
+                </div>
+                <div class="card">
+                    <h3>Mindfulness and Meditation</h3>
+                    <p>Instructions on developing awareness and insight through various meditation techniques.</p>
+                    <a href="#" class="learn-more">Discover Mindfulness</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="collections">
+            <h2>Major Sutta Collections</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Digha Nikaya</h3>
+                    <p>The collection of long discourses, containing 34 suttas on various topics.</p>
+                    <a href="#" class="learn-more">Explore Digha Nikaya</a>
+                </div>
+                <div class="card">
+                    <h3>Majjhima Nikaya</h3>
+                    <p>The collection of middle-length discourses, with 152 suttas of moderate length.</p>
+                    <a href="#" class="learn-more">Study Majjhima Nikaya</a>
+                </div>
+                <div class="card">
+                    <h3>Samyutta Nikaya</h3>
+                    <p>The collection of connected discourses, organized by topic with over 2,900 suttas.</p>
+                    <a href="#" class="learn-more">Discover Samyutta Nikaya</a>
+                </div>
+                <div class="card">
+                    <h3>Anguttara Nikaya</h3>
+                    <p>The collection of numerical discourses, with suttas grouped by number of items.</p>
+                    <a href="#" class="learn-more">Explore Anguttara Nikaya</a>
+                </div>
+                <div class="card">
+                    <h3>Khuddaka Nikaya</h3>
+                    <p>The collection of minor texts, including popular works like the Dhammapada.</p>
+                    <a href="#" class="learn-more">Learn Khuddaka Nikaya</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="resources">
+            <h2>Sutta Resources</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Online Sutta Study</h3>
+                    <p>Access our comprehensive online courses on Sutta study, suitable for beginners to advanced practitioners.</p>
+                    <a href="#" class="learn-more">View Courses</a>
+                </div>
+                <div class="card">
+                    <h3>Sutta Translations</h3>
+                    <p>Discover various translations of key Suttas to deepen your understanding and practice.</p>
+                    <a href="#" class="learn-more">Browse Translations</a>
+                </div>
+                <div class="card">
+                    <h3>Discussion Forums</h3>
+                    <p>Join our online community to discuss Sutta interpretations and applications with fellow practitioners.</p>
+                    <a href="#" class="learn-more">Join Discussions</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="form-container">
+        <h2>Contact Us</h2>
+        <form id="contactForm" action="https://formspree.io/f/xanyweyr" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div id="successMessage" class="message success-message">
+            Thank you! We'll contact you soon.
+        </div>
+        <div id="errorMessage" class="message error-message">
+            Oops! Something went wrong. Please try again.
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About W3Dhamma</h3>
+                <p>W3Dhamma is dedicated to making the profound teachings of the Buddha accessible in the digital age, bridging ancient wisdom with contemporary understanding.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#key-teachings">Key Teachings</a></li>
+                    <li><a href="#collections">Collections</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i> YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2024 W3Dhamma. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Smooth animations
+        document.addEventListener('DOMContentLoaded', () => {
+            const animatedElements = document.querySelectorAll('.card, .footer-section, .form-container');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.transition = 'opacity 0.5s ease-out, transform 0.5s ease-out';
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            animatedElements.forEach(el => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+</html>
